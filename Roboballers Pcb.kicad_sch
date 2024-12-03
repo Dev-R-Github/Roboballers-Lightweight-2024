@@ -5687,12 +5687,6 @@
 		(uuid "69b31816-09f9-4206-935c-9f4e109aa408")
 	)
 	(junction
-		(at 238.76 199.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72163b4d-0339-4e48-a8b9-62962cd62b6c")
-	)
-	(junction
 		(at 100.33 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5920,6 +5914,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 201.93) (xy 231.14 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07697f01-25da-46e9-a5b7-345fe45d0550")
+	)
+	(wire
+		(pts
 			(xy 354.33 166.37) (xy 354.33 167.64)
 		)
 		(stroke
@@ -6067,16 +6071,6 @@
 			(type default)
 		)
 		(uuid "1eb33187-b839-4fc0-959a-45d451971215")
-	)
-	(wire
-		(pts
-			(xy 246.38 193.04) (xy 238.76 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f7e6627-db08-4ead-aca4-fec6afa333a4")
 	)
 	(wire
 		(pts
@@ -6440,7 +6434,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 199.39) (xy 242.57 199.39)
+			(xy 229.87 199.39) (xy 242.57 199.39)
 		)
 		(stroke
 			(width 0)
@@ -6890,16 +6884,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 193.04) (xy 238.76 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7191e59f-21fd-4e1d-b34f-fe8541b38575")
-	)
-	(wire
-		(pts
 			(xy 392.43 69.85) (xy 392.43 53.34)
 		)
 		(stroke
@@ -7307,16 +7291,6 @@
 			(type default)
 		)
 		(uuid "a560faf7-2200-4365-8a51-47aa1095505b")
-	)
-	(wire
-		(pts
-			(xy 231.14 199.39) (xy 238.76 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a593966f-2ec4-4de8-b452-d6e37f02f772")
 	)
 	(wire
 		(pts
@@ -9149,6 +9123,28 @@
 			)
 		)
 	)
+	(global_label "12v"
+		(shape input)
+		(at 246.38 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b32862b-a685-44bf-8692-82335051c9ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.0082 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CLS1"
 		(shape input)
 		(at 220.98 233.68 0)
@@ -9315,7 +9311,7 @@
 		)
 		(uuid "6184a3a9-b7de-4be0-95b8-76df6630ab0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.5202 200.7394 0)
+			(at 140.9482 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10063,7 +10059,7 @@
 		)
 		(uuid "9dde1b12-dd4a-4327-8967-f1ba54457b17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.7702 204.5494 0)
+			(at 236.1982 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13631,7 +13627,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 226.06 201.93 180)
+		(at 224.79 201.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13640,7 +13636,7 @@
 		(fields_autoplaced yes)
 		(uuid "32c7ab00-287d-4d55-a222-69db2b59bb51")
 		(property "Reference" "J5"
-			(at 226.06 193.04 0)
+			(at 224.79 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13648,7 +13644,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 226.06 195.58 0)
+			(at 224.79 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13656,7 +13652,7 @@
 			)
 		)
 		(property "Footprint" "Pads:Pads"
-			(at 226.06 201.93 0)
+			(at 224.79 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13665,7 +13661,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 201.93 0)
+			(at 224.79 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13674,7 +13670,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 201.93 0)
+			(at 224.79 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
