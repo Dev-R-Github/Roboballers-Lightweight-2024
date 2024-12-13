@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "annular_width|72571999|120396000|9099f04b-fd8d-41d1-a1e0-8ae2ad28284c|00000000-0000-0000-0000-000000000000",
+        "annular_width|72571999|125984000|e7d2150d-e7dc-4fd3-9185-36c074960284|00000000-0000-0000-0000-000000000000",
+        "annular_width|72571999|131572000|5a107282-d41b-489c-b0f1-5a5a063a3103|00000000-0000-0000-0000-000000000000",
+        "annular_width|72571999|137160000|02b9d71f-22e5-46b1-8daf-0fb6cc096c07|00000000-0000-0000-0000-000000000000",
+        "annular_width|80772000|120396000|d1e62168-ab12-4c61-bcc5-7a96ce5c7b19|00000000-0000-0000-0000-000000000000",
+        "annular_width|80772000|125984000|a961a3fa-0dcf-4b8e-be2c-d32423f361f0|00000000-0000-0000-0000-000000000000",
+        "annular_width|80772000|131572000|77ec6b4e-9c42-4257-b8df-a59c55e804be|00000000-0000-0000-0000-000000000000",
+        "annular_width|80772000|137160000|16617ae0-6cf3-47d8-b192-1b9f81be7076|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -479,7 +488,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Users/Vreha/Downloads/",
+      "plot": "MainPCB GERBERS/",
       "pos_files": "",
       "specctra_dsn": "../../Users/Vreha/Downloads/Roboballers Pcb.dsn",
       "step": "Roboballers Pcb.step",
